@@ -1,8 +1,8 @@
 # `ts-bayes`: A Naive-Bayes classifier for node.js, ported to Typescript
 
-`bayes` takes a document (piece of text), and tells you what category that document belongs to.
+`ts-bayes` takes a document (piece of text), and tells you what category that document belongs to.
 
-This is a Typescript port of the [original work](https://github.com/ttezel/bayes) by [ttexel](https://github.com/ttezel).
+This is a Typescript port of the [original work](https://github.com/ttezel/bayes) by [ttezel](https://github.com/ttezel).
 
 ## What can I use this for?
 
@@ -22,7 +22,7 @@ npm install ts-bayes
 
 ```javascript
 
-import { Bayes } from './index';
+import { Bayes } from 'ts-bayes';
 
 var classifier = new Bayes();
 
